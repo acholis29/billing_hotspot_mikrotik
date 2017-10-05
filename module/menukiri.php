@@ -35,78 +35,12 @@
                         </a>
                     </li>
                     <li id="li-kesiswaan">
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">school</i>
-                            <span>Kesiswaan</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li id="li-siswa">
-                                <a href="/kesiswaan/siswa/" >
-                                    <span>Daftar siswa</span>
-                                </a>                                
-                            </li>
-                            <li id="li-absensiswa">
-                                <a href="/kesiswaan/absensi/" >
-                                    <span>Absensi siswa</span>
-                                </a>
-                                
-                            </li>
-                        </ul>
+                        <a href="/voucher/">
+                            <i class="material-icons">description</i>
+                            <span>Voucher</span>
+                        </a>                        
                     </li>
-					<li id="li-pegawai">
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">people</i>
-                            <span>Kepegawaian</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li id="li-guru">
-                                <a href="/pegawai/guru/" >
-                                    <span>Daftar Guru</span>
-                                </a>
-                                
-                            </li>
-                            <li id="li-staff">
-                                <a href="/pegawai/staff/" >
-                                    <span>Daftar Staff</span>
-                                </a>
-                                
-                            </li>
-                        </ul>
-                    </li>
-					<li id="li-kurikulum">
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">layers</i>
-                            <span>Kurikulum</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li id="li-mapel">
-                                <a href="/pegawai/guru/" >
-                                    <span>Daftar MAPEL</span>
-                                </a>
-                                
-                            </li>
-                            <li id="li-staff">
-                                <a href="/pegawai/staff/" >
-									<span>Daftar Kelas</span>
-                                </a>
-                                
-                            </li>
-                        </ul>
-                    </li>
-					<li id="li-option">
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">build</i>
-                            <span>Pengaturan</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li id="li-userid">
-                                <a href="/option/userid/" >
-                                    <span>User pengguna</span>
-                                </a>
-                                
-                            </li>
-                        </ul>
-                    </li>
+					
                     <li >
                         <a href="#">
                             <i class="material-icons">help</i>

@@ -1,4 +1,7 @@
+
 <?php
+
+
 /*
 	session_start();
 
@@ -59,9 +62,11 @@
 		$path1 = $splitpath[1]!='' ? '../' : ''; 
 		$path2 = $splitpath[2]!='' ? '../' : ''; 
 		$pathall = $path1.$path2;
-		
+
+		require($pathall.'config/api.php');
 		require_once $pathall.'module/jsmodule.php'; 
 		require_once $pathall.'config/general_config.php'; 				
+		
 		//----------- Page Loader 
 		require_once $pathall.'module/loader.php'; 		
 		echo '<div class="overlay"></div>';
@@ -80,7 +85,11 @@
 		switch ($valpath2) {
 			case 'home':
 				require_once $valpath2.'/dashboard/dashadmin.php'; 
-				break;				
+				break;
+			default:
+				require_once $path1.'/'.$valpath2.'/index.php'; 
+				break;
+				
 		};
 
 		if($splitpath[2] !=''){
@@ -97,11 +106,16 @@
 		};
 		*/
 		//----------- all js
-		
+		//echo '<script>console.log("'.$path1.'");</script>';
+		readJson('config_json');
 	?>
     
 
-
+	<script>
+		$(document).ready(function() {
+			console.log(config_json);
+		});
+	</script>
     <!-- Custom Js -->
 </body>
 

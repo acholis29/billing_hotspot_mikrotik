@@ -1,0 +1,26 @@
+{
+	"server_config": {
+		"ip": "localhost",
+		"port": "2228",
+		"username": "user",
+		"password": "pass"
+	},
+	"speed":["512k/680k",
+		"512k/720k",
+		"512k/1M",
+		"512k/2M",
+		"1M/1M",
+		"1M/2M"],
+	"profile": [{
+		"vname": "3 Jam",
+		"uactive": "3h",
+		"profile": "voucher_3h",
+		"price": "1000"
+	},
+	{
+		"vname": "3 Jam",
+		"uactive": "3h",
+		"profile": "voucher_3h",
+		"price": "1000"
+	}]
+}
