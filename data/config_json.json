@@ -1,10 +1,20 @@
 {
-	"server_config": {
-		"ip": "localhost",
-		"port": "2228",
-		"username": "user",
-		"password": "pass"
-	},
+	"setting":[{
+		"router": {
+			"ip": "192.168.28.1",
+			"port": "2228",
+			"username": "admin",
+			"password": ""
+			},
+			"db": {
+				"ip": "localhost",
+				"port": "0",
+				"username": "root",
+				"password": "",
+				"dbname": "db"
+			}
+		}
+	],
 	"speed":["512k/680k",
 		"512k/720k",
 		"512k/1M",
